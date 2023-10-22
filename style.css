@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #19191B;
+    font-family: 'Poppins', sans-serif;
+}
+.big-container{
+    padding: 15px 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul li a{
+    text-decoration: none;
+    
+    margin-right: 10px;
+    color: #ffffffbe;
+}
+
+header ul li a:hover 
+, :focus{
+    color: #5454D4;
+}
+
+header button {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    padding:0px 20px;
+    height: 35px;
+    border-radius: 5px;
+}
+header button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0;
+}
+header button:hover{
+    border: none;
+    
+    transition: .5s ease-in;
+    background-color: #5454D4;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+@media (max-width:375px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+.container .description{    
+    width: 50%;
+}
+.container .description h1{
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight:700;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+.container .description p{
+    color: #ffffffbe;
+    line-height:   30px;
+    margin-bottom: 30px;
+}
+.description button{
+    padding: 10px 10px;    
+    border: none;
+    border-radius: 5px;
+    background-color: #5454D4;
+    color: #fff;
+}
+.description  button a{    
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.description button a {
+    margin-left:10px ;
+    color: #FFFFFF;
+}
+
+
+.description button:hover{    
+    transition: .2s ease-in;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.container .image{
+    width: 50%;
+}
+.container .image img{
+    width: 45vw;
+}
+.wrapper{
+    
+    padding-bottom: 100px ;
+}
+.wrapper img{
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.heading h1{
+    color: #fff;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.heading p{
+    color: #fff;
+    margin-bottom: 52px;
+}
+section .services{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 60px;
+    padding-top: 20px;
+}
+section h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+
+.service {
+    width: 250px;
+}
+.service img{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.service h2{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.service p{    
+    text-align: center;
+    font-size: 14px;
+    color: #ffffffbe;   
+}
+
+
+.portfolio {
+    padding: 50px 0;
+}
+.portfolio .images{
+    width: fit-content;
+    display: flex;
+    padding-top: 50px ;
+}
+.portfolio  h1{
+    text-transform: capitalize;
+    color: #fff;
+}
+.portfolio .images img{
+    width: 300px;
+    margin-right: 30px;
+}
+.portfolio .images img:first-child{
+    height: 70%;
+}
+.portfolio .images img:nth-of-type(2){
+    margin-top: 20px;
+    height: 70%;
+}
+.portfolio .images img:last-child{
+    margin-top: 40px;
+    height: 70%;
+}
+
+.contact{
+    background-color: #1E1E20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px ;
+    padding:0 110px;
+    color: #fff;
+
+}
+.contact button{
+    background-color: #5454D4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}
+.contact button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.contact button:hover{      
+    transition: .2s ease-in;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffffbe;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+footer ul li a{
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: #5454D4;
+}
